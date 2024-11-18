@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTAREFA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+
+      header {
+        background-color: #333;
+        padding: 10px 20px;
+      }
+
+      .cabeçalho_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .cabeçalho_menu a img {
+        max-width: 100%;
+        height: auto;
+        margin: 5px;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .apresentação_conteudo {
+        max-width: 800px;
+        margin: 0 auto 20px;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .apresentação_conteudo_titulo {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .paragrafo {
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-bottom: 20px;
+        color: #555;
+      }
+
+      .minha-imagem {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 8px;
+      }
+
+      .tabela {
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .tabela_titulo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333;
+      }
+
+     
+      @media (max-width: 768px) {
+        .apresentação_conteudo_titulo {
+          font-size: 1.5rem;
+        }
+
+        .paragrafo {
+          font-size: 1rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .apresentação_conteudo_titulo {
+          font-size: 1.2rem;
+        }
+
+        .paragrafo {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <nav class="cabeçalho_menu">
+        <a href="index.html"><img src="IMG/LOGO.png" alt="Logo da Futarefa" width="170"></a>
+        <a href="jogos.html"><img src="IMG/ICONEBOLA.png" alt="Bola" width="50"></a>
+        <a href="cartões.html"><img src="IMG/cartao.png" alt="Cartão" width="50"></a>
+        <a href="artilharia.html"><img src="IMG/CHUTEIRA.png" alt="Chuteira" width="50"></a>
+        <a href="videos.html"><img src="IMG/payzin.png" alt="Vídeos" width="70"></a>
+        <a href="maiorescampeões.html"><img src="IMG/tophies.png" alt="Campeões" width="70"></a>
+      </nav>
+    </header>
+    <main class="apresentação">
+      
+      <section class="apresentação_conteudo">
+        <p class="paragrafo">
+          Aqui, você encontra tudo sobre o campeonato que movimenta milhões de torcedores e revela talentos incríveis.
+          Nossas atualizações incluem análises de jogos, entrevistas exclusivas, estatísticas detalhadas e muito mais. 
+          Fique por dentro das últimas novidades dos clubes, dos jogadores em destaque e das principais disputas da competição.
+          Junte-se a nós para acompanhar cada lance emocionante e torcer pelo seu time do coração!
+        </p>
+        <img class="minha-imagem" src="IMG/VITORIA.webp" alt="Jogador comemorando vitória">
+      </section>
+
+      
+      <section class="apresentação_conteudo">
+        <h1 class="apresentação_conteudo_titulo">PRINCIPAIS VENCEDORES:</h1>
+        <p class="paragrafo">
+          Os maiores campeões ficaram com a taça duas vezes:<br>
+          Botafogo (2015 e 2021);<br>
+          Paysandu (1991 e 2001);<br>
+          Palmeiras (2003 e 2013);<br>
+          Bragantino (1989 e 2019);<br>
+          Goiás (1999 e 2012);<br>
+          Coritiba (2007 e 2010);<br>
+          América-MG (1997 e 2007).
+        </p>
+      </section>
+
+      
+      <section class="tabela">
+        <h2 class="tabela_titulo">Tabela:</h2>
+        <img class="minha-imagem" src="IMG/TABELA%20BRB.png" alt="Tabela do Campeonato">
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTAREFA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+
+      header {
+        background-color: #333;
+        padding: 10px 20px;
+      }
+
+      .cabeçalho_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .cabeçalho_menu a img {
+        max-width: 100%;
+        height: auto;
+        margin: 5px;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .apresentação_conteudo {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .apresentação_conteudo_titulo1 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .minha-imagem {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 8px;
+      }
+
+     
+      @media (max-width: 768px) {
+        .apresentação_conteudo_titulo1 {
+          font-size: 1.5rem;
+        }
+
+        .minha-imagem {
+          max-width: 100%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .apresentação_conteudo_titulo1 {
+          font-size: 1.2rem;
+        }
+      }
+
+      
+      .melhores-jogos {
+        background-color: white !important; 
+        padding: 20px;
+        box-shadow: none !important; 
+        border-radius: 8px;
+        color: #333; 
+      }
+
+      .melhores-jogos p {
+        margin-bottom: 15px;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .melhores-jogos strong {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <nav class="cabeçalho_menu">
+        <a href="index.html"><img src="IMG/LOGO.png" alt="Logo da Futarefa" width="170"></a>
+        <a href="jogos.html"><img src="IMG/ICONEBOLA.png" alt="Bola" width="50"></a>
+        <a href="cartões.html"><img src="IMG/cartao.png" alt="Cartões" width="50"></a>
+        <a href="artilharia.html"><img src="IMG/CHUTEIRA.png" alt="Chuteira" width="50"></a>
+        <a href="videos.html"><img src="IMG/payzin.png" alt="Vídeos" width="70"></a>
+        <a href="maiorescampeões.html"><img src="IMG/tophies.png" alt="Campeões" width="70"></a>
+      </nav>
+    </header>
+    <main class="apresentação">
+      <section class="apresentação_conteudo">
+        <h1 class="apresentação_conteudo_titulo1">PRÓXIMOS JOGOS:</h1>
+      </section>
+      <img class="minha-imagem" src="IMG/joguinhos.png" alt="Próximos jogos">
+      <section class="apresentação_conteudo melhores-jogos">
+        <p><strong>MELHORES JOGOS</strong></p>
+        <p>
+          <strong>1. Atlético-GO 5x3 Guarani (2009)</strong><br>
+          Esse confronto épico ocorreu entre duas equipes já classificadas para a Série A, que buscavam a vice-liderança. A partida foi marcada por um festival de gols e viradas, com o Atlético-GO exibindo um ataque implacável e garantindo a vitória em um dos jogos mais emocionantes da história da competição.
+        </p>
+        <p>
+          <strong>2. Vitória 4x4 Atlético-MG (2006)</strong><br>
+          Em um duelo entre gigantes em busca do retorno à elite, o empate eletrizante em Salvador proporcionou gols de longa distância e uma atmosfera apaixonante. O resultado manteve o Atlético-MG na luta pelo acesso em uma temporada tensa e repleta de desafios.
+        </p>
+        <p>
+          <strong>3. Portuguesa 7x2 Duque de Caxias (2011)</strong><br>
+          A "Barcelusa" protagonizou uma das maiores goleadas da Série B, comandada por Edno e Marco Antônio. A equipe mostrou futebol ofensivo e envolvente, consolidando seu domínio naquela edição histórica e caminhando com autoridade rumo ao título.
+        </p>
+        <p>
+          <strong>4. Sport 4x4 Guarani (1999)</strong><br>
+          Essa partida foi pura emoção e imprevisibilidade. Com constantes viradas e um gol nos acréscimos que garantiu o empate ao Guarani, o duelo demonstrou toda a intensidade e drama que só a Série B pode proporcionar aos torcedores.
+        </p>
+        <p>
+          <strong>5. Goiás 6x1 Vila Nova (2012)</strong><br>
+          No clássico goiano, o Goiás mostrou sua superioridade com uma atuação de gala liderada por Walter. A vitória expressiva sobre o rival Vila Nova marcou o domínio da equipe na temporada e a consolidou como uma das forças que retornariam à elite do futebol brasileiro.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+
+

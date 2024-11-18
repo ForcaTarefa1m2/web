@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTAREFA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+
+      header {
+        background-color: #333;
+        padding: 10px 20px;
+      }
+
+      .cabeçalho_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .cabeçalho_menu a img {
+        max-width: 100%;
+        height: auto;
+        margin: 5px;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .apresentação_conteudo {
+        max-width: 800px;
+        margin: 0 auto 20px;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .apresentação_conteudo_titulo {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-bottom: 20px;
+      }
+
+      .minha-imagem,
+      .minha-imagem2 {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 8px;
+      }
+
+      /* Responsividade */
+      @media (max-width: 768px) {
+        .apresentação_conteudo_titulo {
+          font-size: 1.5rem;
+        }
+
+        h2 {
+          font-size: 1rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .apresentação_conteudo_titulo {
+          font-size: 1.2rem;
+        }
+
+        h2 {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <nav class="cabeçalho_menu">
+        <a href="index.html"><img src="IMG/LOGO.png" alt="Logo da Futarefa" width="170"></a>
+        <a href="jogos.html"><img src="IMG/ICONEBOLA.png" alt="Bola" width="50"></a>
+        <a href="cartões.html"><img src="IMG/cartao.png" alt="Cartão" width="50"></a>
+        <a href="artilharia.html"><img src="IMG/CHUTEIRA.png" alt="Chuteira" width="50"></a>
+        <a href="videos.html"><img src="IMG/payzin.png" alt="Vídeos" width="70"></a>
+        <a href="maiorescampeões.html"><img src="IMG/tophies.png" alt="Campeões" width="70"></a>
+      </nav>
+    </header>
+    <main class="apresentação">
+      <section class="apresentação_conteudo">
+        <h1 class="apresentação_conteudo_titulo">ARTILHARIA: CAIO DANTAS</h1>
+        <h2>
+          Caio Dantas, com sua habilidade de fazer gols, movimentação inteligente e força para disputar as jogadas, é um dos jogadores que têm se destacado na Série B do Campeonato Brasileiro de 2024. 
+          Seu estilo de jogo, que mistura técnica e potência física, o torna uma referência no ataque e um jogador difícil de ser parado pelos adversários. 
+          Não importa em que posição sua equipe termine no campeonato, Dantas é, sem dúvida, um dos atacantes que merece atenção nesta temporada, com grande capacidade de decidir partidas importantes.
+        </h2>
+      </section>
+      <img class="minha-imagem" src="IMG/ARTILHARIA.png" alt="Artilharia">
+      <img class="minha-imagem2" src="IMG/caio-dantas-guarani.png" alt="Caio Dantas">
+    </main>
+  </body>
+</html>
+

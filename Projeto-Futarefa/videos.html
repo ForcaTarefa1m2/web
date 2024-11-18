@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>FUTAREFA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+        margin: 0;
+      }
+
+      header {
+        background-color: #333;
+        padding: 10px 20px;
+      }
+
+      .cabeçalho_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .cabeçalho_menu a img {
+        max-width: 100%;
+        height: auto;
+        margin: 5px;
+      }
+
+      main {
+        background-color: #fff; 
+        padding: 20px;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        max-width: 1200px;
+      }
+
+      .apresentação_conteudo_titulo {
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .video-container {
+        display: flex;
+        justify-content: space-between; 
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      iframe {
+        width: 100%;
+        max-width: 560px;
+        height: 315px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+    
+      @media (max-width: 768px) {
+        .video-container {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        iframe {
+          max-width: 100%;
+        }
+
+        .apresentação_conteudo_titulo {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="cabeçalho_menu">
+        <a href="index.html"><img src="IMG/LOGO.png" alt="Logo da Futarefa" width="170"></a>
+        <a href="jogos.html"><img src="IMG/ICONEBOLA.png" alt="bola" width="50"></a>
+        <a href="cartões.html"><img src="IMG/cartao.png" alt="cartões" width="50"></a>
+        <a href="artilharia.html"><img src="IMG/CHUTEIRA.png" alt="artilharia" width="50"></a>
+        <a href="videos.html"><img src="IMG/payzin.png" alt="vídeos" width="70"></a>
+        <a href="maiorescampeões.html"><img src="IMG/tophies.png" alt="campeões" width="70"></a>
+      </nav>
+    </header>
+    <main>
+      <h1 class="apresentação_conteudo_titulo">VÍDEOS</h1>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/rqljXiWNw1Y?si=6MFXl29DN5GD7Kqi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/GNVWItJMI68?si=OuH9JuXjjWkJL823" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/mZZ6CJSoRLs?si=O9kYBtNdXxLJ2qFp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/WG7tEl2ZZG8?si=dNTcNINAmxkRHUiz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </main>
+  </body>
+</html>
